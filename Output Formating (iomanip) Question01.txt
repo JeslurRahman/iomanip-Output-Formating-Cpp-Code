@@ -1,0 +1,24 @@
+Write a program to input the marks a student for two assignments and find the final mark of each 
+assignment according to the percentages given. In your program;
+
+1) Implement a function to find the contribution of each assignment mark sent to the function 
+   as parameters. In the function you should update two variables called CA1 and CA2, which
+   are defined in the main program. The function heading is given below;
+
+void findMarks (int t_marks1, int t_marks2, float &t_CA1, float &t_CA2);
+
+The final CA mark for each assignment is calculated as shown below;
+
+       Assignment 1 20%
+       Assignment 2 30%
+
+2) In the main program, input marks for 5 students and show the percentages of the marks 
+   using findMarks() function in a table as shown below. Format the output to 2 decimal 
+   places.
+
+          Student  Marks1  Marks2  CA_1   CA_2
+             1      60       65    12.00  19.50
+             2      37       43    7.40   12.90
+             3      75       80    15.00  24.00
+             4      92       75    18.40  22.50
+             5      53       45    10.60  15.9
