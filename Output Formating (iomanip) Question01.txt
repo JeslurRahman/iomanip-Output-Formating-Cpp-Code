@@ -1,3 +1,5 @@
+Use output formatting and pass by reference in C++
+
 Write a program to input the marks a student for two assignments and find the final mark of each 
 assignment according to the percentages given. In your program;
 
